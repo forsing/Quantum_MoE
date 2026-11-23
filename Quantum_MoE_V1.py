@@ -76,9 +76,9 @@ set_num_threads(min(4, get_num_threads()))
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_2984.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_plus_1740.csv"),
+    Path("/data/loto7_4724_k93.csv"),
+    Path("/data/loto7_4724_k93_loto_2984.csv"),
+    Path("/data/loto7_4724_k93_loto_plus_1740.csv"),
 )
 
 
@@ -1081,7 +1081,7 @@ Test dobitak MoE, pozitivan je bolji: prema jednom=0.000812 | prema stalnoj mesa
 Zavrsno MoE ucenje: svi istorijski prelazi.
 Udeli strucnjaka: [0.1832, 0.1691, 0.3574, 0.2903]
 NEXT: deterministicka pretraga zajednicke raspodele.
-NEXT: [5, 8, 10, 21, 22, 26, 36]
+NEXT: [5, x, 10, y, 22, z, 36]
 
 
 
@@ -1106,7 +1106,7 @@ Test dobitak MoE, pozitivan je bolji: prema jednom=-0.001621 | prema stalnoj mes
 Zavrsno MoE ucenje: svi istorijski prelazi.
 Udeli strucnjaka: [0.4105, 0.2019, 0.2558, 0.1318]
 NEXT: deterministicka pretraga zajednicke raspodele.
-NEXT: [2, 9, 13, 16, 18, 24, 25]
+NEXT: [2, x, 13, y, 18, z, 25]
 
 
 
@@ -1131,7 +1131,7 @@ Test dobitak MoE, pozitivan je bolji: prema jednom=-0.006657 | prema stalnoj mes
 Zavrsno MoE ucenje: svi istorijski prelazi.
 Udeli strucnjaka: [0.2417, 0.7312, 0.0139, 0.0132]
 NEXT: deterministicka pretraga zajednicke raspodele.
-NEXT: [21, 24, 25, 33, 35, 37, 38]
+NEXT: [21, x, 25, y, 35, z, 38]
 """
 
 
